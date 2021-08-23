@@ -13,4 +13,4 @@ WORKDIR /app
 
 COPY --from=builder /go/src/app .
 
-CMD ["/main"]
+CMD ["./main"]
